@@ -7,7 +7,8 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="assets/Styles/style.css">
+  <link rel="stylesheet" media="screen and (max-width:400px)" href="assets/Styles/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width:400px)" href="assets/Styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
@@ -19,6 +20,7 @@
 </head>
 
 <body>
+  <img class="mobileHeader" src="assets/images/image-omelette.jpeg" alt="End result of the Recipe">
   <div class="Container">
     <img src="assets/images/image-omelette.jpeg" alt="End result of the Recipe">
     <h1>Simple Omelette Recipe</h1>
@@ -35,7 +37,7 @@
       </ul>
     </div>
     <h2>Ingredients</h2>
-    <ul>
+    <ul class="inline">
       <li>2-3 large eggs</li>
       <li>Salt, to taste</li>
       <li>Pepper, to taste</li>
@@ -44,7 +46,7 @@
     </ul>
     <hr>
     <h2>Instructions</h2>
-    <ol>
+    <ol class="inline">
       <li><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
         You can add a tablespoon of water or milk for a fluffier texture.</li>
       <li><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
