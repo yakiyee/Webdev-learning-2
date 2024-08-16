@@ -34,7 +34,7 @@
   /* } */
 
   /* Misc */
-  --div-radius: 0.5em;
+  --div-radius: 1em;
   --mobile: 375px;
 }
 
@@ -60,6 +60,8 @@ div {
 .Container {
   background-color: var(--White);
   margin: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
   min-width: 400px;
   width: 40%;
   padding: 2.5rem;
